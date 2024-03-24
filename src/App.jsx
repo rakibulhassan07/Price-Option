@@ -1,17 +1,20 @@
 
 import './App.css'
 import DaisyNav from './Component/DaisyNav/DaisyNav'
-import Navbar from './Component/DaisyNav/Navbar/Navbar'
+import PriceOptions from './Component/PriceOptions/PriceOptions'
+
 
 function App() {
   
 
   return (
     <>
-      {/* <DaisyNav></DaisyNav> */}
-      <Navbar></Navbar>
-      <h1>Vite + React</h1>
      
+    
+      <DaisyNav></DaisyNav>
+      <h1>Vite + React</h1>
+      <PriceOptions></PriceOptions>
+    
     </>
   )
 }
